@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Clearing yay cache...
+When = PostTransaction
+Exec = /usr/local/bin/removehook
